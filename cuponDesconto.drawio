@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-24T01:43:29.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="7dYoVn-ouVoILd6oGcXJ" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-25T00:13:10.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Fof2VdQxUM0lvzAeqyOZ" version="20.8.23" type="github">
   <diagram name="Principal" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="978" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1839" dy="1627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -341,6 +341,538 @@
         </mxCell>
         <mxCell id="v2QCkOjRr-7WIZT86sDF-123" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1260" y="1010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-127" value="Cupon desconto loja" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry y="2270" width="800" height="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-128" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="290" y="70" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-129" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="v2QCkOjRr-7WIZT86sDF-127" source="v2QCkOjRr-7WIZT86sDF-128">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="v2QCkOjRr-7WIZT86sDF-127" source="v2QCkOjRr-7WIZT86sDF-131">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-131" value="Cliente encontra um cupon na tela de cupons disponíveis" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="235" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-132" value="&lt;h1&gt;O cupon&lt;/h1&gt;&lt;p&gt;Esse cupon é um cupon que a loja deixa disponível como se fosse a lista de restaurantes do ifood, quando o cliente clicar na loja vai aparecer todos os cupons disponíveis da loja, o cliente clica nesse cupon e resgata, esse cupon vai ficar em uma tela chamada meu cupon&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="375" y="275" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="v2QCkOjRr-7WIZT86sDF-127" source="v2QCkOjRr-7WIZT86sDF-134">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-134" value="O cliente clica em resgatar cupon, esse cupon fica disponível pra ele" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="235" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-137" value="Utilizar o cupon premio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="235" y="615" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-139" value="&lt;h1&gt;Utilizando o premio&lt;/h1&gt;&lt;p&gt;O cliente faz a compra na loja e no final apresenta o cupon que ele resgatou, o&amp;nbsp; vendedor vai scanear o QRcode e utilizar esse cupon(o cupon é valido somente para 1 usuário)&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="385" y="605" width="245" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-140" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="50" y="915" width="200" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-145" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Cupons disponíveis&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fillStyle=auto;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="100" y="965" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-152" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;App Cliente&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fontSize=6;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="93" y="885" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-153" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;fillStyle=auto;fontSize=14;fillColor=#f6f4f4;gradientColor=none;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="565" y="910" width="200" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-154" value="Utilizar cupon" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#0085FC;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;fillStyle=auto;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="600" y="1090" width="130" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-155" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.contact_badge_focused;sketch=0;fillStyle=auto;strokeColor=default;fontSize=14;fillColor=#24471a;gradientColor=none;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="580" y="950" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="v2QCkOjRr-7WIZT86sDF-127" source="v2QCkOjRr-7WIZT86sDF-157" target="v2QCkOjRr-7WIZT86sDF-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-157" value="Logo da empresa" style="ellipse;whiteSpace=wrap;html=1;align=center;fillStyle=auto;fontSize=14;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="420" y="915" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-158" value="Cupon desconto loja" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fontSize=14;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="630" y="950" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-159" value="Promoção:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="565" y="985" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-160" value="Desconto em compras na loja" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fontSize=8;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="634" y="986" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-161" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;fillStyle=auto;fontSize=8;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="569" y="1340" width="200" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-162" value="Confirmar" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#0085FC;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;fillStyle=auto;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="625" y="1640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-163" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;fontSize=14;fillStyle=auto;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="584" y="1410" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-164" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Conceder cupon&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fillStyle=auto;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="620" y="1400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-165" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.contact_badge_focused;sketch=0;fillStyle=auto;strokeColor=default;fontSize=15;fillColor=#24471a;gradientColor=none;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="634" y="1440" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-171" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;App Funcionario&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fontSize=6;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="605" y="880" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-187" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="290" y="450" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-188" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="290" y="525" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-189" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=10;" edge="1" source="v2QCkOjRr-7WIZT86sDF-188" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-186" value="José das couves" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fontSize=15;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="598.5" y="1500" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-190" value="Desconto de 20% em compras" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="631.5" y="1530" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-191" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="592.5" y="1570" width="111" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-192" value="Valor total da compra" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="584" y="1550" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-193" value="Valor final: R$ 40,00" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="627.5" y="1600" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-194" value="50,00" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="575" y="1567" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-195" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="70" y="1015" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-196" value="&lt;b&gt;Loja flores&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="113" y="1015" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-197" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.contact_badge_focused;sketch=0;fillStyle=auto;strokeColor=default;fontSize=14;fillColor=#24471a;gradientColor=none;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="70" y="1022.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-198" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Cupon 20% em qualquer produto&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="110" y="1032.5" width="100" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-199" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="70" y="1082.5" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-200" value="&lt;b&gt;Loja flores2&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="113" y="1082.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-201" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.contact_badge_focused;sketch=0;fillStyle=auto;strokeColor=default;fontSize=14;fillColor=#24471a;gradientColor=none;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="70" y="1090" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-202" value="Cupon 20% na compra de rosas" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="110" y="1100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-203" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="70" y="1150" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-204" value="&lt;b&gt;Loja flores 3&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="104.5" y="1150" width="77" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-205" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.contact_badge_focused;sketch=0;fillStyle=auto;strokeColor=default;fontSize=14;fillColor=#24471a;gradientColor=none;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="70" y="1157.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-206" value="Cupon 10% em qualquer produto" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="110" y="1167.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-221" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;fillStyle=auto;fontSize=8;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="60" y="1348" width="200" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-223" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;fontSize=14;fillStyle=auto;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="75" y="1400" width="170" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-224" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Loja das flores&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fillStyle=auto;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="113" y="1390" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-225" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.contact_badge_focused;sketch=0;fillStyle=auto;strokeColor=default;fontSize=15;fillColor=#24471a;gradientColor=none;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="127" y="1430" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-227" value="Desconto de 20% em compras" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="133" y="1500" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-232" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.time_picker_dark;sketch=0;fillStyle=auto;strokeColor=default;fontSize=15;fillColor=#24471a;gradientColor=none;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="120" y="1530" width="86" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-234" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="v2QCkOjRr-7WIZT86sDF-127" source="v2QCkOjRr-7WIZT86sDF-233" target="v2QCkOjRr-7WIZT86sDF-232">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-233" value="QRcode" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="330" y="1515" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.055;entryY=0.344;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="v2QCkOjRr-7WIZT86sDF-127" source="v2QCkOjRr-7WIZT86sDF-235" target="v2QCkOjRr-7WIZT86sDF-225">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-235" value="Logo da empresa" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="270" y="1418" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-237" value="Onde fica a loja" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="100" y="1640" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-238" value="&lt;font style=&quot;font-size: 5px;&quot;&gt;valido: 02/02/2025&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="150" y="1005" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-239" value="&lt;font style=&quot;font-size: 5px;&quot;&gt;valido: 02/02/2025&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="150" y="1070" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-240" value="&lt;font style=&quot;font-size: 5px;&quot;&gt;valido: 02/02/2025&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="152.5" y="1137.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-241" value="&lt;font style=&quot;font-size: 5px;&quot;&gt;valido: 02/02/2025&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="107" y="1485" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-242" value="Resgatar" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="185" y="1047" width="35" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-243" value="Resgatar" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="187" y="1115.5" width="35" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-244" value="Resgatar" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="191" y="1183" width="35" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="v2QCkOjRr-7WIZT86sDF-127" source="v2QCkOjRr-7WIZT86sDF-245" target="v2QCkOjRr-7WIZT86sDF-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-245" value="quando clicar em resgatar o card fica desabilitado igual é feito no da shopee" style="ellipse;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="290" y="1020" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-248" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=8;" edge="1" parent="v2QCkOjRr-7WIZT86sDF-127" source="v2QCkOjRr-7WIZT86sDF-247" target="v2QCkOjRr-7WIZT86sDF-237">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-247" value="Clicando aqui vai direcionar para o mapa da localização do estabelecimento" style="ellipse;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-127">
+          <mxGeometry x="320" y="1640" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-249" value="Cupon desconto Produto" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="875" y="2350" width="800" height="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-250" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="290" y="70" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-251" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="v2QCkOjRr-7WIZT86sDF-249" source="v2QCkOjRr-7WIZT86sDF-250">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="v2QCkOjRr-7WIZT86sDF-249" source="v2QCkOjRr-7WIZT86sDF-253">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-253" value="Cliente encontra um cupon na tela de cupons disponíveis" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="235" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-254" value="&lt;h1&gt;O cupon&lt;/h1&gt;&lt;p&gt;Esse cupon é um cupon que a loja deixa disponível como se fosse a lista de restaurantes do ifood, quando o cliente clicar na loja vai aparecer todos os cupons disponíveis da loja, o cliente clica nesse cupon e resgata, esse cupon vai ficar em uma tela chamada meu cupon&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="375" y="275" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-255" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="v2QCkOjRr-7WIZT86sDF-249" source="v2QCkOjRr-7WIZT86sDF-256">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-256" value="O cliente clica em resgatar cupon, esse cupon fica disponível pra ele" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="235" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-257" value="Utilizar o cupon premio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="235" y="615" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-258" value="&lt;h1&gt;Utilizando o premio&lt;/h1&gt;&lt;p&gt;O cliente faz a compra o produto do cupon na loja e no final apresenta o cupon que ele resgatou, o&amp;nbsp; vendedor vai scanear o QRcode e utilizar esse cupon(o cupon é valido somente para 1 usuário)&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="385" y="605" width="245" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-259" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="50" y="915" width="200" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-260" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Cupons disponíveis&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fillStyle=auto;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="100" y="965" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-261" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;App Cliente&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fontSize=6;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="93" y="885" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-262" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;fillStyle=auto;fontSize=14;fillColor=#f6f4f4;gradientColor=none;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="565" y="910" width="200" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-263" value="Utilizar cupon" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#0085FC;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;fillStyle=auto;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="600" y="1090" width="130" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-264" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.contact_badge_focused;sketch=0;fillStyle=auto;strokeColor=default;fontSize=14;fillColor=#24471a;gradientColor=none;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="580" y="950" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-265" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="v2QCkOjRr-7WIZT86sDF-249" source="v2QCkOjRr-7WIZT86sDF-266" target="v2QCkOjRr-7WIZT86sDF-264">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-266" value="Logo da empresa" style="ellipse;whiteSpace=wrap;html=1;align=center;fillStyle=auto;fontSize=14;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="420" y="915" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-267" value="Cupon desconto loja" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fontSize=14;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="630" y="950" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-268" value="Promoção:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="565" y="985" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-269" value="Desconto de produto" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fontSize=8;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="634" y="986" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-270" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;fillStyle=auto;fontSize=8;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="569" y="1340" width="200" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-271" value="Confirmar" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#0085FC;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;fillStyle=auto;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="625" y="1640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-272" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;fontSize=14;fillStyle=auto;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="584" y="1410" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-273" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Conceder cupon&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fillStyle=auto;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="620" y="1400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-274" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.contact_badge_focused;sketch=0;fillStyle=auto;strokeColor=default;fontSize=15;fillColor=#24471a;gradientColor=none;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="634" y="1440" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-275" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;App Funcionario&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fontSize=6;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="605" y="880" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-276" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="290" y="450" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-277" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="290" y="525" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-278" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=10;" edge="1" parent="v2QCkOjRr-7WIZT86sDF-249" source="v2QCkOjRr-7WIZT86sDF-277">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-279" value="José das couves" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fontSize=15;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="598.5" y="1500" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-280" value="Desconto de 20% na compra de rosas" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="631.5" y="1530" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-283" value="Valor com desconto: R$ 40,00" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="627.5" y="1600" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-285" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="70" y="1015" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-286" value="&lt;b&gt;Loja flores&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="113" y="1015" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-287" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.contact_badge_focused;sketch=0;fillStyle=auto;strokeColor=default;fontSize=14;fillColor=#24471a;gradientColor=none;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="70" y="1022.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-288" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Cupon 20% em qualquer produto&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="110" y="1032.5" width="100" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-289" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="70" y="1082.5" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-290" value="&lt;b&gt;Loja flores2&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="113" y="1082.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-291" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.contact_badge_focused;sketch=0;fillStyle=auto;strokeColor=default;fontSize=14;fillColor=#24471a;gradientColor=none;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="70" y="1090" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-292" value="Cupon 20% na compra de rosas" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="110" y="1100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-293" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="70" y="1150" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-294" value="&lt;b&gt;Loja flores 3&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="104.5" y="1150" width="77" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-295" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.contact_badge_focused;sketch=0;fillStyle=auto;strokeColor=default;fontSize=14;fillColor=#24471a;gradientColor=none;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="70" y="1157.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-296" value="Cupon 10% em qualquer produto" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="110" y="1167.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-297" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;fillStyle=auto;fontSize=8;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="60" y="1348" width="200" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-298" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;fontSize=14;fillStyle=auto;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="75" y="1400" width="170" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-299" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Loja das flores&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fillStyle=auto;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="113" y="1390" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-300" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.contact_badge_focused;sketch=0;fillStyle=auto;strokeColor=default;fontSize=15;fillColor=#24471a;gradientColor=none;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="127" y="1430" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-301" value="Desconto de 20% na compra de rosas" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="133" y="1500" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-302" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.time_picker_dark;sketch=0;fillStyle=auto;strokeColor=default;fontSize=15;fillColor=#24471a;gradientColor=none;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="120" y="1530" width="86" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-303" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="v2QCkOjRr-7WIZT86sDF-249" source="v2QCkOjRr-7WIZT86sDF-304" target="v2QCkOjRr-7WIZT86sDF-302">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-304" value="QRcode" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="330" y="1515" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-305" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.055;entryY=0.344;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="v2QCkOjRr-7WIZT86sDF-249" source="v2QCkOjRr-7WIZT86sDF-306" target="v2QCkOjRr-7WIZT86sDF-300">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-306" value="Logo da empresa" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="270" y="1418" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-307" value="Onde fica a loja" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="100" y="1640" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-308" value="&lt;font style=&quot;font-size: 5px;&quot;&gt;valido: 02/02/2025&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="150" y="1005" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-309" value="&lt;font style=&quot;font-size: 5px;&quot;&gt;valido: 02/02/2025&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="150" y="1070" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-310" value="&lt;font style=&quot;font-size: 5px;&quot;&gt;valido: 02/02/2025&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="152.5" y="1137.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-311" value="&lt;font style=&quot;font-size: 5px;&quot;&gt;valido: 02/02/2025&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="107" y="1485" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-312" value="Resgatar" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="185" y="1047" width="35" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-313" value="Resgatar" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="187" y="1115.5" width="35" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-314" value="Resgatar" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="191" y="1183" width="35" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-315" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="v2QCkOjRr-7WIZT86sDF-249" source="v2QCkOjRr-7WIZT86sDF-316" target="v2QCkOjRr-7WIZT86sDF-292">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-316" value="quando clicar em resgatar o card fica desabilitado igual é feito no da shopee" style="ellipse;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="290" y="1062.5" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-317" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=8;" edge="1" parent="v2QCkOjRr-7WIZT86sDF-249" source="v2QCkOjRr-7WIZT86sDF-318" target="v2QCkOjRr-7WIZT86sDF-307">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-318" value="Clicando aqui vai direcionar para o mapa da localização do estabelecimento" style="ellipse;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="320" y="1640" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-319" value="Valor do produto: 50,00" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="v2QCkOjRr-7WIZT86sDF-249">
+          <mxGeometry x="610" y="1550" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-320" value="Telas do fluxo de compras" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="-40" width="1790" height="4310" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-321" value="Telas da loja" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="-70" width="1270" height="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-377" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.014;entryY=0.502;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=5;" edge="1" parent="1" source="v2QCkOjRr-7WIZT86sDF-323" target="v2QCkOjRr-7WIZT86sDF-358">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-323" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;fillStyle=auto;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="80" width="200" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-332" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="150" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-334" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.005;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=8;" edge="1" parent="1" source="v2QCkOjRr-7WIZT86sDF-333" target="v2QCkOjRr-7WIZT86sDF-323">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-333" value="App inicial do vendedor" style="ellipse;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2380" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-335" value="Cupon Fidelidade" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="165" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-336" value="Desconto em qualquer compra" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-337" value="Desconto em produto" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="310" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-338" value="Cashback" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="380" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-339" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;fillStyle=auto;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2900" y="-120" width="200" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-347" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2930" y="-45.5" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-348" value="Nome da promoção" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2924" y="-70" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-350" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2930" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-351" value="Qtd total para premio" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2930" y="-20.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-352" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2930" y="40.5" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-353" value="Premio" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2900" y="20" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-354" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2925" y="86" width="120" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-355" value="Descrição" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2900" y="65.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-356" value="Cadastrar cupon" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2940" y="195" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-357" value="Cadastro de cupon fidelidade" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2949" y="-90" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-358" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;fillStyle=auto;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2530" y="65" width="200" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-368" value="Cupons fidelidades" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2582" y="105" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-396" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.269;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=5;" edge="1" parent="1" source="v2QCkOjRr-7WIZT86sDF-369" target="v2QCkOjRr-7WIZT86sDF-388">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-369" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="155" width="160" height="50.5" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-371" value="&lt;font style=&quot;font-size: 5px;&quot;&gt;apagar&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="160.5" width="20" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-372" value="&lt;font style=&quot;font-size: 5px;&quot;&gt;Editar&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="175" width="20" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-379" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.05;entryY=0.692;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=5;" edge="1" parent="1" source="v2QCkOjRr-7WIZT86sDF-373" target="v2QCkOjRr-7WIZT86sDF-339">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-373" value="Cadastrar novo" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2670" y="124" width="40" height="20.5" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-374" value="premio: 5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=5;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-375" value="&lt;h1&gt;Lava jato&lt;/h1&gt;&lt;p&gt;Lave o seu carro por 5 vezes e a 6º é de graça&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=5;" vertex="1" parent="1">
+          <mxGeometry x="2560" y="160.5" width="110" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-388" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;fillStyle=auto;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2940" y="350" width="200" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="v2QCkOjRr-7WIZT86sDF-397" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="400" width="160" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
