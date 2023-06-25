@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T16:59:13.425Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="TohG6d-_alm4fR3tc8RR" version="21.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-25T23:00:59.087Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wLwFUNNHElgvPaDYZITN" version="21.5.0" type="github" pages="2">
   <diagram name="Principal" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="2537" dy="1999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2216" dy="1828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1667,6 +1667,28 @@
         </mxCell>
         <mxCell id="GS3k6gcMhNk7Ms8lzlTN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.331;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o4oJRasGgyPiFMF2EZ2b-3" target="RHeXaHwpoCm9CbyyNTSb-4">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mCo8oguJ98sXtwHFJBwC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="576" as="targetPoint" />
+            <mxPoint x="230" y="666" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="230" y="616" />
+              <mxPoint x="591" y="616" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCo8oguJ98sXtwHFJBwC-1" value="Cupom cashback" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="660" width="160" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="mCo8oguJ98sXtwHFJBwC-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mCo8oguJ98sXtwHFJBwC-1">
+          <mxGeometry y="26" width="160" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mCo8oguJ98sXtwHFJBwC-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mCo8oguJ98sXtwHFJBwC-1">
+          <mxGeometry y="48" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mCo8oguJ98sXtwHFJBwC-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mCo8oguJ98sXtwHFJBwC-1">
+          <mxGeometry y="56" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
