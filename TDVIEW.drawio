@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.6" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.6" pages="3">
   <diagram name="Caso de uso" id="WD-fC5odFZIu3sasPVaM">
     <mxGraphModel dx="880" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -318,6 +318,60 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="667.9399999999998" y="452.356" as="sourcePoint" />
             <mxPoint x="950" y="535.65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Sg63mBsA2vAYiiqTG04-" name="Diagrama de serviços">
+    <mxGraphModel dx="880" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Mb51tvgPR_zCD_l835ZU-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mb51tvgPR_zCD_l835ZU-4" target="Mb51tvgPR_zCD_l835ZU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mb51tvgPR_zCD_l835ZU-4" value="«gerenciador de usuários»&lt;br&gt;&lt;b&gt;UserServices&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="110" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Mb51tvgPR_zCD_l835ZU-5" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="Mb51tvgPR_zCD_l835ZU-4">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mb51tvgPR_zCD_l835ZU-6" value="«gerenciador de empresas»&lt;br&gt;&lt;b&gt;enterpriseService&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="110" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Mb51tvgPR_zCD_l835ZU-7" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="Mb51tvgPR_zCD_l835ZU-6">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mb51tvgPR_zCD_l835ZU-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mb51tvgPR_zCD_l835ZU-8" target="Mb51tvgPR_zCD_l835ZU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t-2iaczrUVTrShejVSyd-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mb51tvgPR_zCD_l835ZU-8" target="Mb51tvgPR_zCD_l835ZU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mb51tvgPR_zCD_l835ZU-8" value="«gerenciador de anuncios»&lt;br&gt;&lt;b&gt;advertisementsServices&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="220" y="330" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Mb51tvgPR_zCD_l835ZU-9" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="Mb51tvgPR_zCD_l835ZU-8">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mb51tvgPR_zCD_l835ZU-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.006;entryY=0.611;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Mb51tvgPR_zCD_l835ZU-10" target="Mb51tvgPR_zCD_l835ZU-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mb51tvgPR_zCD_l835ZU-10" value="«gerenciador de exibição outdoor»&lt;br&gt;&lt;b&gt;OutdoorServices&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="530" y="340" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Mb51tvgPR_zCD_l835ZU-11" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="Mb51tvgPR_zCD_l835ZU-10">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
