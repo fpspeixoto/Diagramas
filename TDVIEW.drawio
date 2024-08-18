@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7" pages="8">
   <diagram name="Caso de uso" id="WD-fC5odFZIu3sasPVaM">
     <mxGraphModel dx="880" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -411,15 +411,6 @@
         <mxCell id="mvX5a4CgwTg4zKhPBbFM-1" value="Listar cidades onde o mesmo terá permissão" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1SnY3-yBAVBF2ERtGxdE-1">
           <mxGeometry x="380" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1SnY3-yBAVBF2ERtGxdE-2" value="&lt;b&gt;enterpriseService&lt;/b&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="210" width="1090" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="lTyLSqbii1TGd_CLVvC6-1" value="&lt;b&gt;advertisementsServices&lt;/b&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="410" width="1090" height="330" as="geometry" />
-        </mxCell>
-        <mxCell id="AfH1QUKaX2uHJRPkg_O7-1" value="&lt;b&gt;OutdoorServices&lt;/b&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="740" width="1090" height="200" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -799,6 +790,45 @@
         </mxCell>
         <mxCell id="yDbNObGlzCILLEGJhxSc-28" value="Listar anuncios destinado ao ID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yDbNObGlzCILLEGJhxSc-1">
           <mxGeometry x="170" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nWA81WRpy_J6Xx10I09n" name="Logista outdoor">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3oG88b50QEIc7b80zuUd-1" value="&lt;b&gt;OutdoorServices&lt;/b&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="640" width="1090" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="3oG88b50QEIc7b80zuUd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="3oG88b50QEIc7b80zuUd-1" source="3oG88b50QEIc7b80zuUd-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3oG88b50QEIc7b80zuUd-8" value="Representante" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="3oG88b50QEIc7b80zuUd-1">
+          <mxGeometry x="50" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3oG88b50QEIc7b80zuUd-27" value="Criar notificações" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3oG88b50QEIc7b80zuUd-1">
+          <mxGeometry x="160" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iuCmrUNFFGskzI0-xmlK" name="layout tela outdoor">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5fpLc5apBourSFLjT9jy-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="150" width="510" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="5fpLc5apBourSFLjT9jy-3" value="Anuncio principal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="150" width="400" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="5fpLc5apBourSFLjT9jy-4" value="Anuncio loja" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="150" width="110" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
