@@ -52,30 +52,24 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Gerenciador de KPI" id="rHQVYaE5zKOra6AIidWQ">
-    <mxGraphModel dx="880" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1257" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PBoOeWnNyTLWouQcgtOV-0" />
         <mxCell id="PBoOeWnNyTLWouQcgtOV-1" parent="PBoOeWnNyTLWouQcgtOV-0" />
         <mxCell id="PBoOeWnNyTLWouQcgtOV-2" value="&amp;nbsp;Lista Backlog" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBoOeWnNyTLWouQcgtOV-1">
           <mxGeometry x="40" y="40" width="190" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="PBoOeWnNyTLWouQcgtOV-3" value="Backlog" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBoOeWnNyTLWouQcgtOV-1">
+        <mxCell id="PBoOeWnNyTLWouQcgtOV-4" value="equipamento" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBoOeWnNyTLWouQcgtOV-1">
           <mxGeometry x="260" y="40" width="190" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="PBoOeWnNyTLWouQcgtOV-4" value="equipamento" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBoOeWnNyTLWouQcgtOV-1">
+        <mxCell id="PBoOeWnNyTLWouQcgtOV-6" value="&lt;div&gt;Visualizar relatorios&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBoOeWnNyTLWouQcgtOV-1">
           <mxGeometry x="480" y="40" width="190" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="PBoOeWnNyTLWouQcgtOV-5" value="Foto e laudo&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBoOeWnNyTLWouQcgtOV-1">
-          <mxGeometry x="30" y="360" width="190" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="PBoOeWnNyTLWouQcgtOV-6" value="&lt;div&gt;Visualizar relatorios&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBoOeWnNyTLWouQcgtOV-1">
-          <mxGeometry x="250" y="360" width="190" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="PBoOeWnNyTLWouQcgtOV-7" value="Histórico do equipamento&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;filtrar por equipamento(geral)&lt;/div&gt;&lt;div&gt;ordem de serviço&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBoOeWnNyTLWouQcgtOV-1">
+        <mxCell id="92pH50z8OQVQwevhQ7As-0" value="&lt;div&gt;Laudar relatorio&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBoOeWnNyTLWouQcgtOV-1">
           <mxGeometry x="700" y="40" width="190" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="PBoOeWnNyTLWouQcgtOV-8" value="&lt;div&gt;Criar RNC&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBoOeWnNyTLWouQcgtOV-1">
-          <mxGeometry x="470" y="360" width="190" height="280" as="geometry" />
+        <mxCell id="92pH50z8OQVQwevhQ7As-1" value="&lt;div&gt;Indicadores&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBoOeWnNyTLWouQcgtOV-1">
+          <mxGeometry x="40" y="360" width="190" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
