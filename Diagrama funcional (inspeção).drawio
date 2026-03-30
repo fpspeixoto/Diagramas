@@ -1,14 +1,19 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram name="Inspeção de recebimento" id="vKs0MGHWKkyscdwjP7QK">
-    <mxGraphModel dx="3773" dy="2419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3633" dy="2359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="THKneD0M_FRmlA9ld1fu-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Vertical Container" vertex="1">
-          <mxGeometry height="3490" width="2090" x="-413" y="-150" as="geometry" />
+        <mxCell id="THKneD0M_FRmlA9ld1fu-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Criação inspeção de recebimento" vertex="1">
+          <mxGeometry height="3490" width="3503" x="-500" y="-190" as="geometry" />
         </mxCell>
-        <mxCell id="THKneD0M_FRmlA9ld1fu-1" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Inspections" vertex="1">
-          <mxGeometry height="1150" width="70" x="660" y="180" as="geometry" />
+        <mxCell id="pzhhAg_1sD2aBabN16QM-4" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="pzhhAg_1sD2aBabN16QM-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="763" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THKneD0M_FRmlA9ld1fu-1" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&amp;lt;post&amp;gt;Inspection/inspections/receiving" vertex="1">
+          <mxGeometry height="1150" width="100" x="660" y="180" as="geometry" />
         </mxCell>
         <mxCell id="THKneD0M_FRmlA9ld1fu-3" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
           <mxGeometry height="490" width="370" x="120" y="170" as="geometry" />
@@ -24,6 +29,28 @@
         </mxCell>
         <mxCell id="THKneD0M_FRmlA9ld1fu-7" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="THKneD0M_FRmlA9ld1fu-3" style="edgeStyle=none;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.029;entryY=0.202;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;shape=link;" target="THKneD0M_FRmlA9ld1fu-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-8" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="pzhhAg_1sD2aBabN16QM-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;shape=link;" target="pzhhAg_1sD2aBabN16QM-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1980" y="261" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-2" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&amp;lt;get&amp;gt;enterprise/clients/search?name=&amp;lt;name&amp;gt;" vertex="1">
+          <mxGeometry height="180" width="100" x="1803" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-3" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Busca o id do cliente" vertex="1">
+          <mxGeometry height="60" width="120" x="973" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-5" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="pzhhAg_1sD2aBabN16QM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.014;entryY=0.282;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="pzhhAg_1sD2aBabN16QM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-6" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="pzhhAg_1sD2aBabN16QM-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.965;entryY=0.078;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;dashed=1;" target="THKneD0M_FRmlA9ld1fu-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-7" parent="THKneD0M_FRmlA9ld1fu-2" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;align=left;" value="Response:&lt;br&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;message&quot;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;id&quot;: &quot;30307180-a6c9-4058-a5f7-01dc7caee6f8&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;name&quot;: &quot;PETRÓLEO BRASILEIRO S.A.&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;email&quot;: &quot;teste@teste&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;logoImg&quot;: &quot;/imagem/petrobras.jpg&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;telefone&quot;: &quot;23232323&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;documento&quot;: &quot;343434&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;organizationId&quot;: &quot;&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;errors&quot;: null&lt;/div&gt;&lt;div style=&quot;&quot;&gt;}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="310" width="280" x="2060" y="106" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
