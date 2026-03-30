@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram name="Inspeção de recebimento" id="vKs0MGHWKkyscdwjP7QK">
-    <mxGraphModel dx="8192" dy="4294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5737" dy="3252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,16 +33,16 @@
           <mxGeometry height="1430" width="100" x="660" y="190" as="geometry" />
         </mxCell>
         <mxCell id="THKneD0M_FRmlA9ld1fu-3" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
-          <mxGeometry height="490" width="370" x="120" y="170" as="geometry" />
+          <mxGeometry height="490" width="370" x="90" y="230" as="geometry" />
         </mxCell>
         <mxCell id="THKneD0M_FRmlA9ld1fu-4" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=0;whiteSpace=wrap;html=1;" value="Request" vertex="1">
-          <mxGeometry height="60" width="120" x="150" y="200" as="geometry" />
+          <mxGeometry height="60" width="120" x="120" y="260" as="geometry" />
         </mxCell>
         <mxCell id="THKneD0M_FRmlA9ld1fu-5" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Core" vertex="1">
-          <mxGeometry height="170" width="330" x="140" y="290" as="geometry" />
+          <mxGeometry height="170" width="330" x="110" y="350" as="geometry" />
         </mxCell>
         <mxCell id="THKneD0M_FRmlA9ld1fu-6" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Response" vertex="1">
-          <mxGeometry height="120" width="350" x="130" y="510" as="geometry" />
+          <mxGeometry height="120" width="350" x="100" y="570" as="geometry" />
         </mxCell>
         <mxCell id="THKneD0M_FRmlA9ld1fu-7" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="THKneD0M_FRmlA9ld1fu-3" style="edgeStyle=none;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.029;entryY=0.202;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;shape=link;" target="THKneD0M_FRmlA9ld1fu-1">
           <mxGeometry relative="1" as="geometry" />
