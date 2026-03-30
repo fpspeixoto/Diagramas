@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram name="Inspeção de recebimento" id="vKs0MGHWKkyscdwjP7QK">
-    <mxGraphModel dx="3184" dy="2169" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8192" dy="4294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,8 +18,19 @@
         <mxCell id="pzhhAg_1sD2aBabN16QM-11" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="THKneD0M_FRmlA9ld1fu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=1.013;exitY=0.236;exitDx=0;exitDy=0;exitPerimeter=0;" target="pzhhAg_1sD2aBabN16QM-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-46" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="THKneD0M_FRmlA9ld1fu-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="1400.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-48" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="THKneD0M_FRmlA9ld1fu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=1.025;exitY=0.802;exitDx=0;exitDy=0;exitPerimeter=0;" target="pzhhAg_1sD2aBabN16QM-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-55" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="THKneD0M_FRmlA9ld1fu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=0.984;exitY=0.951;exitDx=0;exitDy=0;exitPerimeter=0;" target="pzhhAg_1sD2aBabN16QM-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="THKneD0M_FRmlA9ld1fu-1" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&amp;lt;post&amp;gt;Inspection/inspections/receiving" vertex="1">
-          <mxGeometry height="1150" width="100" x="660" y="180" as="geometry" />
+          <mxGeometry height="1430" width="100" x="660" y="190" as="geometry" />
         </mxCell>
         <mxCell id="THKneD0M_FRmlA9ld1fu-3" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
           <mxGeometry height="490" width="370" x="120" y="170" as="geometry" />
@@ -69,14 +80,23 @@
         <mxCell id="pzhhAg_1sD2aBabN16QM-12" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="pzhhAg_1sD2aBabN16QM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;shape=link;" target="pzhhAg_1sD2aBabN16QM-14" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pzhhAg_1sD2aBabN16QM-19" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="pzhhAg_1sD2aBabN16QM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=-0.03;exitY=0.673;exitDx=0;exitDy=0;exitPerimeter=0;" target="pzhhAg_1sD2aBabN16QM-18">
+        <mxCell id="pzhhAg_1sD2aBabN16QM-19" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="pzhhAg_1sD2aBabN16QM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=-0.03;exitY=0.673;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" target="pzhhAg_1sD2aBabN16QM-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pzhhAg_1sD2aBabN16QM-13" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&amp;lt;get&amp;gt;equipment/lots/serialNumber/&amp;lt;numero de serie" vertex="1">
           <mxGeometry height="269" width="100" x="1266" y="405" as="geometry" />
         </mxCell>
         <mxCell id="pzhhAg_1sD2aBabN16QM-14" parent="THKneD0M_FRmlA9ld1fu-2" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;align=left;" value="Response:&lt;br&gt;&lt;div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;message&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;id&quot;: &quot;7a98a770-2dda-4f0e-aa7e-ff4403e782d3&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;serialNumber&quot;: &quot;M80-18853-01&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;version&quot;: &quot;A&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;manufacturer&quot;: null,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;status&quot;: &quot;ATIVO&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;legalContract&quot;: null,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;sapContract&quot;: null,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;tag&quot;: null,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;clientId&quot;: &quot;30307180-a6c9-4058-a5f7-01dc7caee6f8&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;equipmentId&quot;: &quot;7fb71b65-3b3e-452a-8f4f-b308043c4052&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;client&quot;: null,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;equipment&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;id&quot;: &quot;7fb71b65-3b3e-452a-8f4f-b308043c4052&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;name&quot;: &quot;BASE TESTE P/SCPS DRILL QUIP&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;partNumber&quot;: &quot;7-400742-02&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;drawing&quot;: null,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;version&quot;: null,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;status&quot;: &quot;ATIVO&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;lots&quot;: null&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;errors&quot;: null&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="494" width="280" x="1523" y="340" as="geometry" />
+          <mxGeometry height="494" width="367" x="1523" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-29" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="pzhhAg_1sD2aBabN16QM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;dashed=1;" target="pzhhAg_1sD2aBabN16QM-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="730" />
+              <mxPoint x="1130" y="730" />
+            </Array>
+            <mxPoint x="962.9999999999995" y="705" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="pzhhAg_1sD2aBabN16QM-18" parent="THKneD0M_FRmlA9ld1fu-2" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Existe valor?" vertex="1">
           <mxGeometry height="80" width="80" x="1093" y="550" as="geometry" />
@@ -102,13 +122,83 @@
         <mxCell id="pzhhAg_1sD2aBabN16QM-25" parent="THKneD0M_FRmlA9ld1fu-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="não" vertex="1">
           <mxGeometry height="30" width="60" x="1070" y="630" as="geometry" />
         </mxCell>
-        <mxCell id="pzhhAg_1sD2aBabN16QM-26" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="pzhhAg_1sD2aBabN16QM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.983;entryY=0.443;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="THKneD0M_FRmlA9ld1fu-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1133" y="690" />
-              <mxPoint x="927" y="690" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-35" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="pzhhAg_1sD2aBabN16QM-33" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="pzhhAg_1sD2aBabN16QM-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-33" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Verifica se existe equipamento por PN" vertex="1">
+          <mxGeometry height="60" width="120" x="1070" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-37" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="pzhhAg_1sD2aBabN16QM-34" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="pzhhAg_1sD2aBabN16QM-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-39" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="pzhhAg_1sD2aBabN16QM-34" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="pzhhAg_1sD2aBabN16QM-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-34" parent="THKneD0M_FRmlA9ld1fu-2" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Existe equipamento?" vertex="1">
+          <mxGeometry height="80" width="80" x="1090" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-36" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Cria equipamento" vertex="1">
+          <mxGeometry height="60" width="120" x="1290" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-43" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="pzhhAg_1sD2aBabN16QM-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="pzhhAg_1sD2aBabN16QM-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-38" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Retorna objeto de equipamento" vertex="1">
+          <mxGeometry height="60" width="120" x="1070" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-40" parent="THKneD0M_FRmlA9ld1fu-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="não" vertex="1">
+          <mxGeometry height="30" width="60" x="1170" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-41" parent="THKneD0M_FRmlA9ld1fu-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="sim" vertex="1">
+          <mxGeometry height="30" width="60" x="1130" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-42" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Cria o lote" vertex="1">
+          <mxGeometry height="60" width="120" x="1266" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-44" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="pzhhAg_1sD2aBabN16QM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="pzhhAg_1sD2aBabN16QM-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-45" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="pzhhAg_1sD2aBabN16QM-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.963;entryY=0.681;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;dashed=1;" target="THKneD0M_FRmlA9ld1fu-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-47" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Buscar nota fiscal" vertex="1">
+          <mxGeometry height="60" width="120" x="1100" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-49" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="pzhhAg_1sD2aBabN16QM-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;shape=link;" target="pzhhAg_1sD2aBabN16QM-51" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-50" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&amp;lt;get&amp;gt;nota-fiscal/fiscal-note/number/&amp;lt;numero&amp;gt;" vertex="1">
+          <mxGeometry height="269" width="100" x="1656.5" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-51" parent="THKneD0M_FRmlA9ld1fu-2" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;align=left;" value="Response:&lt;br&gt;&lt;div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;message&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;id&quot;: &quot;186ed9ac-0d8b-4de3-adc3-e4e43b106858&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;number&quot;: &quot;2899546&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;fiscalNumber&quot;: &quot;33251033000167105558550010028995461810271500&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;issueDate&quot;: &quot;2025-10-15&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;supplierCnpj&quot;: &quot;33.000.167/1055-58&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;supplierName&quot;: &quot;PETRÓLEO BRASILEIRO S.A.&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;totalValue&quot;: 678493.18,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;description&quot;: &quot;Imported from MeuDanfe - Equipment Contract (2 items)&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;infCpl&quot;: &quot;CONTRATO: 4600671061 FERRAMENTA: NM: 10.604.849 - NS: M80-16912-01 - NP: 2-404514-02 BASE: NM: 11.041.273 - NS:M80-18853-01 - NP: 7-400742-02 ORIGEM: OFICINA (PREDIO 611) DESTINO: INNOVEX DSM: 4902884543&amp;nbsp; &amp;nbsp; MATERIAL DEVER RETORNAR ATE O DIA 13/04/2026&amp;nbsp; SUSPENSAO DO ICMS CF. ART. 52, INCISOS I, P 1.O, ITEM 2 DO LIVRO I DO RICMS/RJ - DECRETO NO 27.427/2000 ICMS SUSPENSO - ART. 52, INC. I, LIVRO I - DECRETO 27.427 DE 17/11/00 RICMS/RJ. OPERACAO NAO TRIBUTADA DE IPI&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;rawJsonResponse&quot;: &quot;{\&quot;data\&quot;:{\&quot;numeroNota\&quot;:\&quot;2899546\&quot;,\&quot;cnpjEmitente\&quot;:\&quot;33000167105558\&quot;,\&quot;prod\&quot;:null,\&quot;nomeEmitente\&quot;:\&quot;PETRÓLEO BRASILEIRO S.A.\&quot;,\&quot;dataEmissao\&quot;:\&quot;2025-10-15T14:03:00\&quot;,\&quot;valorTotal\&quot;:678493.18,\&quot;chaveAcesso\&quot;:\&quot;33251033000167105558550010028995461810271500\&quot;,\&quot;situacao\&quot;:null,\&quot;infCpl\&quot;:\&quot;CONTRATO: 4600671061 FERRAMENTA: NM: 10.604.849 - NS: M80-16912-01 - NP: 2-404514-02 BASE: NM: 11.041.273 - NS:M80-18853-01 - NP: 7-400742-02 ORIGEM: OFICINA (PREDIO 611) DESTINO: INNOVEX DSM: 4902884543&amp;nbsp; &amp;nbsp; MATERIAL DEVER RETORNAR ATE O DIA 13/04/2026&amp;nbsp; SUSPENSAO DO ICMS CF. ART. 52, INCISOS I, P 1.O, ITEM 2 DO LIVRO I DO RICMS/RJ - DECRETO NO 27.427/2000 ICMS SUSPENSO - ART. 52, INC. I, LIVRO I - DECRETO 27.427 DE 17/11/00 RICMS/RJ. OPERACAO NAO TRIBUTADA DE IPI\&quot;,\&quot;itens\&quot;:[{\&quot;codigo\&quot;:\&quot;000000000010604849\&quot;,\&quot;descricao\&quot;:\&quot;FERRAMENTA /SUSPENSOR P/SCPS DRILL QUIP\&quot;,\&quot;quantidade\&quot;:1.0000,\&quot;valorUnitario\&quot;:498123.0600000000,\&quot;valorTotal\&quot;:498123.06,\&quot;unidade\&quot;:\&quot;UN\&quot;,\&quot;ncm\&quot;:\&quot;84798999\&quot;},{\&quot;codigo\&quot;:\&quot;000000000011041273\&quot;,\&quot;descricao\&quot;:\&quot;BASE TESTE P/SCPS DRILL QUIP\&quot;,\&quot;quantidade\&quot;:1.0000,\&quot;valorUnitario\&quot;:180370.1200000000,\&quot;valorTotal\&quot;:180370.12,\&quot;unidade\&quot;:\&quot;UN\&quot;,\&quot;ncm\&quot;:\&quot;84314390\&quot;}]},\&quot;success\&quot;:true,\&quot;message\&quot;:\&quot;Dados extraídos com sucesso da NFe\&quot;}&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;organizationId&quot;: &quot;default&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;status&quot;: &quot;ATIVO&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;createdAt&quot;: &quot;2026-03-29&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;updatedAt&quot;: &quot;2026-03-29&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;data&quot;: null,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;success&quot;: null,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;errors&quot;: null&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="714" width="953" x="1907" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-52" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="pzhhAg_1sD2aBabN16QM-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.087;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="pzhhAg_1sD2aBabN16QM-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-53" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="pzhhAg_1sD2aBabN16QM-50" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.027;entryY=0.865;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;dashed=1;" target="THKneD0M_FRmlA9ld1fu-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-57" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="pzhhAg_1sD2aBabN16QM-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="pzhhAg_1sD2aBabN16QM-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-54" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Busca o ultimo numero de inspeção salvo no banco de dados e acrescenta mais um" vertex="1">
+          <mxGeometry height="60" width="143" x="1050" y="1580" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-59" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="pzhhAg_1sD2aBabN16QM-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="pzhhAg_1sD2aBabN16QM-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-56" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Craia inspeção de recebimento" vertex="1">
+          <mxGeometry height="60" width="120" x="1280" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-58" parent="THKneD0M_FRmlA9ld1fu-2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="" vertex="1">
+          <mxGeometry height="80" width="60" x="1490" y="1705" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-60" parent="THKneD0M_FRmlA9ld1fu-2" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&amp;nbsp;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;id&quot;: &quot;3ac5af2e-fdc4-443e-a83f-96cb028ab19e&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;inspectionNumber&quot;: &quot;20260001&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;userIdCreated&quot;: &quot;&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;userIdInspected&quot;: null,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;lotId&quot;: &quot;7a98a770-2dda-4f0e-aa7e-ff4403e782d3&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;organizationId&quot;: &quot;30307180-a6c9-4058-a5f7-01dc7caee6f8&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;status&quot;: &quot;ATIVO&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;createdAt&quot;: &quot;2026-03-29&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;inspectedAt&quot;: null,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;inspectionType&quot;: &quot;RECEBIMENTO&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;userCreated&quot;: null,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;userInspected&quot;: null,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;lot&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;id&quot;: &quot;7a98a770-2dda-4f0e-aa7e-ff4403e782d3&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;serialNumber&quot;: &quot;M80-18853-01&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;tag&quot;: null,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;manufacturer&quot;: null,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;legalContract&quot;: null,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;equipment&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;id&quot;: &quot;7fb71b65-3b3e-452a-8f4f-b308043c4052&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;name&quot;: &quot;BASE TESTE P/SCPS DRILL QUIP&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;partNumber&quot;: &quot;7-400742-02&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;description&quot;: null,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;manufacturer&quot;: null,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;model&quot;: null&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;client&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;id&quot;: &quot;30307180-a6c9-4058-a5f7-01dc7caee6f8&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;name&quot;: &quot;PETRÓLEO BRASILEIRO S.A.&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;logoImg&quot;: null&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;organization&quot;: null&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;" vertex="1">
+          <mxGeometry height="580" width="430" x="1750" y="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="pzhhAg_1sD2aBabN16QM-61" edge="1" parent="THKneD0M_FRmlA9ld1fu-2" source="pzhhAg_1sD2aBabN16QM-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;shape=link;" target="pzhhAg_1sD2aBabN16QM-60">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
